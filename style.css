@@ -1,9 +1,10 @@
 body{
-	font-family: Arial,Helvetica, sans-serif;
+	font-family: Arial,Helvetica,sans-serif;
 	font-size: 15px;
 	line-height: 1.5;
 	margin: 0;
 	background-color: #f4f4f4;
+	min-height: 100vh;
 }
 
 ul{
@@ -27,14 +28,16 @@ ul{
 }
 
 header{
-	background-color: #35424a;
+	/*background-color: #35424a;*/
+	background-color: #0f4c75;
 	color: #ffffff;
 	padding-top: 30px;
 	min-height: 70px;
-	border-bottom: #e8491d 3px solid;
+	/*border-bottom: #1b262c 3px solid;*/
 }
 
 header a{
+	/*color: #ffffff;*/
 	color: #ffffff;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -61,26 +64,23 @@ header nav{
 }
 
 header .highlight, header .current a{
-	color: #e8491d;
-	font-weight: bold;
-
+	color: #ffffff;
 }
 
 header a:hover{
-	color:#cccccc;
-	font-weight: bold;
+	color:#272a2e;
 }
 
 #showcase{
 	min-height: 400px;
-	background:url(./image.jpg) no-repeat 0 -800px;
+	background-color: #35424a;
 	text-align: center;
 	color: #ffffff;
 }
 
 #showcase h1{
-	margin-top: 100px;
-	font-size: 55px;
+	margin-top: 75px;
+	font-size: 45px;
 	margin-bottom: 10px;
 }
 
@@ -109,6 +109,7 @@ header a:hover{
 	width: 250px;
 }
 
+
 #boxes{
 	margin-top: 20px;
 }
@@ -125,11 +126,17 @@ header a:hover{
 	padding: 10px;
 }
 
+#boxes img{
+	margin-left: -10px;
+	width: 300px;
+}
+
+
 footer{
 	padding: 20px;
 	margin-top: 20px;
 	color: #ffffff;
-	background-color: #e8491d;
+	background-color: #0f4c75;
 	text-align: center;
 }
 
@@ -175,7 +182,7 @@ footer{
 		padding: 0 10px 0 10px;
 	}
 	#showcase h1{
-		margin-top: 40px;
+		margin-top: 20px;
 	}
 	#newsletter button{
 		display: block;
@@ -184,6 +191,13 @@ footer{
 	#newsletter form input[type="email"]{
 		width: 100%;
 		margin-bottom: 5px;
+	}
+}
+
+@media(max-width: 365px){
+	#boxes img{
+	margin-left: -10px;
+	width: 250px;
 	}
 }
 
