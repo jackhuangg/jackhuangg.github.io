@@ -9,14 +9,12 @@ body{
 ul{
 	margin: 0;
 	padding: 0;
-
 }
 
 .container,.container1{
 	width: 80%;
 	margin: 0 auto !important;
 	overflow: hidden;
-
 }
 
 .button1{
@@ -135,7 +133,6 @@ footer{
 	text-align: center;
 }
 
-
 @media(max-width: 890px){
 	#newsletter h1,
 	#newsletter form{
@@ -152,7 +149,6 @@ footer{
 		margin-bottom: 5px;
 	}
 }
-
 
 @media(max-width: 768px){
 	header #branding,
