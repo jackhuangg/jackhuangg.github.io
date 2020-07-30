@@ -1,3 +1,3 @@
-#Welcome to my personal website.
+# Welcome to my personal website.
 
-Visit it [here!](www.jackhuangg.github.io) 
+Visit it [here!](jackhuangg.github.io) 
