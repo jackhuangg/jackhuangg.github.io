@@ -1,4 +1,4 @@
-body{
+/*body{
 	font-family: Arial,Helvetica,sans-serif;
 	font-size: 15px;
 	line-height: 1.5;
@@ -28,16 +28,13 @@ ul{
 }
 
 header{
-	/*background-color: #35424a;*/
 	background-color: #0f4c75;
 	color: #ffffff;
 	padding-top: 30px;
 	min-height: 70px;
-	/*border-bottom: #1b262c 3px solid;*/
 }
 
 header a{
-	/*color: #ffffff;*/
 	color: #ffffff;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -199,7 +196,7 @@ footer{
 	margin-left: -10px;
 	width: 250px;
 	}
-}
+}*/
 
 
 
