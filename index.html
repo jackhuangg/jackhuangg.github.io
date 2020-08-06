@@ -3,9 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Jack's Website</title>
-	<script src="https://unpkg.com/scrollreveal@4.0.7/dist/scrollreveal.min.js"></script>
 </head>
 <body>
 	<div class="firstbox">
@@ -16,21 +16,37 @@
 	</div>	
 
 	<div class="secondbox" id="secondbox">
-		<h2 class="anim">Here are some of my most recent projects. Enjoy!</h2>
-		<div class="twitch">
+		<h2 class="anim" id="pad">Here are some of my most recent projects.</h2>
+		<a href="https://github.com/jackhuangg/twitterchatbot"><img src="twitch.jpg" class="anim"></a>
+		<h2 class="anim">Twitch Chat Monitor</h2>
+		<h3 class="anim">Website that displays any user mentions in the Twitch chatroom during a livestream.
+			Utilized tmi.js to connect to Twitch servers.
+		</h3>
 
-		</div>
-		<div class="shell">
-
-		</div>
-
+		<a href="https://github.com/jackhuangg/git-shell-script"><img src="git.jpg" class="anim"></a>
+		<h2 class="anim">Git Shortcut with Shell</h2>
+		<h3 class="anim">Wrote a shell script that speeds up productivity when using
+			git commands. Script can add, commit, and push code with only two user inputs.
+			More functionality will be added later.
+		</h3>
 	</div>
-	<div class="third">
-		<p>contact me</p>
-	</div>
+	<!-- <footer class="social-media">
+		<ul>
+			<li><a href=""><i class="fa fa-linkedin"></i></a></li>
+			<li><a href=""><i class="fa fa-github"></i></a></li>
+			<li><a href=""><i class="fas fa-paperclip"></i></a></li>
+		</ul>
+	</footer> -->
+	<script src="https://unpkg.com/scrollreveal@4.0.7/dist/scrollreveal.min.js"></script>
 	<script type="text/javascript">
 		window.sr = ScrollReveal();
 		sr.reveal('.anim');
 	</script>
+	<script type="text/javascript">
+		window.location.replace("#");
+		if (typeof window.history.replaceState == 'function') {
+  		history.replaceState({}, '', window.location.href.slice(0, -1));
+	}
+	</script>	
 </body>
 </html>
