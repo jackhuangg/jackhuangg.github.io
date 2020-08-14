@@ -78,15 +78,11 @@ html,body{
 	align-items: center;
 	background: #0a192f;
 	height: 100%;
-	/* transform: translateY(15%); */
 }
 .intro img{
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 450px;
-}
-.intro h1{
-	padding-top: 3%;
 }
 .intro h2{
 	padding-top: 20px;
@@ -95,7 +91,6 @@ html,body{
 	margin-right: auto;
 }
 .secondbox{
-	/* transform: translateY(7%); */
 	display: flex;
 	text-align: center;
 	flex-direction: column;
@@ -133,7 +128,10 @@ html,body{
     line-height: 50px;
     transition: .5s;
 }
-
+.footer{
+	text-align: center;
+	margin-bottom: 10px;
+}
 @media(max-width:600px){
 	.firstbox{
 		font-size: 25px;
