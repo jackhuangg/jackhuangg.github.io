@@ -26,6 +26,9 @@ html,body{
 	font-size: 40px;
 	height: 100%;
 }
+.firstbox h2{
+	font-size: 40px;
+}
 .firstbox h1,h2{
 	margin: 0;
 }
@@ -132,6 +135,9 @@ html,body{
 	margin-bottom: 10px;
 }
 @media(max-width:600px){
+	.firstbox h2{
+		font-size: 27.5px;
+	}
 	.firstbox{
 		font-size: 25px;
 	}
@@ -163,5 +169,8 @@ html,body{
 	}
 	.secondbox h2{
 		font-size: 20px;
+	}
+	.footer{
+		margin-bottom: 30px;
 	}
 }
