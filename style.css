@@ -77,7 +77,6 @@ html,body{
 	flex-direction: column;
 	align-items: center;
 	background: #0a192f;
-	height: 100%;
 }
 .intro img{
 	margin-left: auto;
