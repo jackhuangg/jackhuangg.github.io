@@ -1,68 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-175535414-1"></script>
-	<script>
-  	window.dataLayer = window.dataLayer || [];
-  	function gtag(){dataLayer.push(arguments);}
-  	gtag('js', new Date());
-  	gtag('config', 'UA-175535414-1');
-	</script>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="./style.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" type="image/x-icon" href="picture.png">
-	<title>Jack's Website</title>
-</head>
-<body>
-	<div class="firstbox">
-		<h1>Jack Huang</h1>
-		<h2>Software Engineer</h2>
-		<a href="#intro"><div class="arrow-down"></div>
-		</a>
-	</div>	
-	<div class="secondhalf">
-		<div class="intro" id="intro">
-			<h1>About Me</h1>
-			<img src="picture.jpg" alt="">
-			<h2>Hey! I'm Jack, a CS major at UCR.
-				I just finished my internship at Google as a STEP Intern and I'm looking for Summer 2022 opportunities! Check out some of my projects ⬇️<br>
-				
-			</h2>
-		</div>
-	
-		<div class="secondbox" id="secondbox">
-			<h1 class="anim" id="pad">Recent projects</h1>
-			<a href="https://github.com/jackhuangg/twitterchatbot"><img src="twitch.jpg" class="anim"></a>
-			<h2 class="anim" id="temp">Twitch Chat Monitor</h2>
-			<h3 class="anim">Website that displays any user mentions in the Twitch chatroom during a livestream.
-				Utilized tmi.js to connect to Twitch servers.
-			</h3>
-	
-			<a href="https://github.com/jackhuangg/git-shell-script"><img src="git.jpg" class="anim"></a>
-			<h2 class="anim" id="temp">Git Faster</h2>
-			<h3 class="anim">Wrote a shell script that speeds up productivity when using
-				git commands. Script can add, commit, and push code with only two user inputs.
-				More functionality will be added later.
-			</h3>
-		</div>
-	</div>
-	
-	<div class="footer">
-		<p>© 2021 Jack Huang. All rights reserved</p>
-	</div>
-	<script src="https://unpkg.com/scrollreveal@4.0.7/dist/scrollreveal.min.js"></script>
-	<script type="text/javascript">
-		window.sr = ScrollReveal();
-		sr.reveal('.anim');
-	</script>
-	<script type="text/javascript">
-		window.location.replace("#");
-		if (typeof window.history.replaceState == 'function') {
-  		history.replaceState({}, '', window.location.href.slice(0, -1));
-	}
-	</script>	
-</body>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-175535414-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-175535414-1");
+    </script>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="picture.png" />
+    <title>Jack's Website</title>
+  </head>
+  <body>
+    <div class="firstbox">
+      <h1>Jack Huang</h1>
+      <h2>Software Engineer</h2>
+      <a href="#intro"><div class="arrow-down"></div> </a>
+    </div>
+    <div class="secondhalf">
+      <div class="intro" id="intro">
+        <h1>About Me</h1>
+        <img src="picture.jpg" alt="" />
+        <h2>
+          Hey! I'm Jack, a CS major at UCR. I'm going to be an incoming SWE
+          Intern at Google on the GCP Team! Click here to view my
+          <a href="./JackHuangResume.pdf">resume</a>.
+        </h2>
+      </div>
+
+      <div class="secondbox" id="secondbox">
+        <h1 class="anim" id="pad">Recent projects</h1>
+        <a href="https://github.com/jackhuangg/twitterchatbot"
+          ><img src="twitch.jpg" class="anim"
+        /></a>
+        <h2 class="anim" id="temp">Twitch Chat Monitor</h2>
+        <h3 class="anim">
+          Website that displays any user mentions in the Twitch chatroom during
+          a livestream. Utilized tmi.js to connect to Twitch servers.
+        </h3>
+
+        <a href="https://github.com/jackhuangg/git-shell-script"
+          ><img src="git.jpg" class="anim"
+        /></a>
+        <h2 class="anim" id="temp">Git Faster</h2>
+        <h3 class="anim">
+          Wrote a shell script that speeds up productivity when using git
+          commands. Script can add, commit, and push code with only two user
+          inputs. More functionality will be added later.
+        </h3>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>© 2021 Jack Huang. All rights reserved</p>
+    </div>
+    <script src="https://unpkg.com/scrollreveal@4.0.7/dist/scrollreveal.min.js"></script>
+    <script type="text/javascript">
+      window.sr = ScrollReveal();
+      sr.reveal(".anim");
+    </script>
+    <script type="text/javascript">
+      window.location.replace("#");
+      if (typeof window.history.replaceState == "function") {
+        history.replaceState({}, "", window.location.href.slice(0, -1));
+      }
+    </script>
+  </body>
 </html>
